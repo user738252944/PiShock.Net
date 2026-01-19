@@ -1,6 +1,8 @@
 # PiShock.Net
 An unofficial .NET SDK for PiShock authentication, device lookup APIs, and Redis control.
 
+[![NuGet](https://img.shields.io/nuget/v/pishock.net.svg)](https://www.nuget.org/packages/pishock.net)
+
 ## Features
 
 - ✅ Cross-platform local login flow (tiny localhost webserver) to obtain **UserId** and **Token**
