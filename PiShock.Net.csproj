@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>PiShock.Net</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>user738252944</Authors>
+        <Description>An unofficial .NET SDK for PiShock authentication, device lookup APIs, and Redis control.</Description>
+
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        
+        <RepositoryUrl>https://github.com/user738252944/PiShock.Net</RepositoryUrl> 
+        <PackageProjectUrl>https://github.com/user738252944/PiShock.Net</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StackExchange.Redis" Version="2.10.1" />
+        
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
