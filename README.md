@@ -78,9 +78,7 @@ await redis.SendAsync(new PiShockCommand
 ```
 To send a command to a shared device, specify the `ShareCode`, `ClientId`, and `ShockerId`:
 ```csharp
-await redis.SendShareCodeAsync(
-    shareCode: all.Shared[0].ShareCode,
-    command: new PiShockCommand
+await redis.SendAsync(new PiShockCommand
     {
         ShareCode = all.Shared[0].ShareCode,
         ClientId = all.Shared[0].ClientId,
